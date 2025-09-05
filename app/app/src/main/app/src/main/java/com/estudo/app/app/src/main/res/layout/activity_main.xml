@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnOcr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OCR e Perguntas" />
+
+    <Button
+        android:id="@+id/btnNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anotações"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tabela de Estudos"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
